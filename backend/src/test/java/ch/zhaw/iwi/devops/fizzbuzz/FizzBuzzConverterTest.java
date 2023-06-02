@@ -35,14 +35,14 @@ public class FizzBuzzConverterTest {
     @Test
     public void fizzBuzzConverter8() {
     FizzBuzzConverter fizzBuzz = new FizzBuzzConverter();
-    Assertions.assertEquals("Fizz", fizzBuzz. convert(8));
+    Assertions.assertEquals("Buzz", fizzBuzz. convert(8));
     }
 
     @Test
     public void fizzBuzzConvertorMultiplesOfEight() {
 
         FizzBuzzConverter fizzBuzz = new FizzBuzzConverter();
-        Assertions.assertEquals("Fizz", fizzBuzz.convert(16));
+        Assertions.assertEquals("Buzz", fizzBuzz.convert(16));
     }
 
 }
