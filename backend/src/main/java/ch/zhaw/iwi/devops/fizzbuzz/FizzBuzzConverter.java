@@ -4,7 +4,7 @@ public class FizzBuzzConverter {
 
     public String convert(int i) {
        
-    return "1";        
+    return String.valueOf (i);        
         }
         
     }
