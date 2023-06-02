@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ToDoController {
 
-    private Map<Integer, ToDo> todos = new HashMap<>();
+    private Map<Integer, ToDo> todos = new HashMap<Integer, ToDo>();
 
     @EventListener(ApplicationReadyEvent.class)
     public void init() {
