@@ -45,4 +45,31 @@ public class FizzBuzzConverterTest {
         Assertions.assertEquals("Buzz", fizzBuzz.convert(16));
     }
 
+    @Test
+    void fizzBuzzConvertorMultiplesOfThreeAndSeven() {
+        FizzBuzzConverter fizzBuzz = new FizzBuzzConverter();
+        Assertions.assertNotEquals("FizzBuzz", fizzBuzz.convert(24));
+        Assertions.assertEquals("FizzBuzz", fizzBuzz.convert(48));
+        Assertions.assertEquals("FizzBuzz", fizzBuzz.convert(72));
+        Assertions.assertEquals("FizzBuzz", fizzBuzz.convert(96));
+        Assertions.assertEquals("FizzBuzz", fizzBuzz.convert(120));
+        Assertions.assertEquals("FizzBuzz", fizzBuzz.convert(144));
+        Assertions.assertEquals("FizzBuzz", fizzBuzz.convert(168));
+        Assertions.assertEquals("FizzBuzz", fizzBuzz.convert(192));
+        Assertions.assertEquals("FizzBuzz", fizzBuzz.convert(216));
+        Assertions.assertEquals("FizzBuzz", fizzBuzz.convert(240));
+        Assertions.assertEquals("FizzBuzz", fizzBuzz.convert(264));
+        Assertions.assertEquals("FizzBuzz", fizzBuzz.convert(288));
+        Assertions.assertEquals("FizzBuzz", fizzBuzz.convert(312));
+        Assertions.assertEquals("FizzBuzz", fizzBuzz.convert(336));
+        Assertions.assertEquals("FizzBuzz", fizzBuzz.convert(360));
+        Assertions.assertEquals("FizzBuzz", fizzBuzz.convert(384));
+        Assertions.assertEquals("FizzBuzz", fizzBuzz.convert(408));
+        Assertions.assertEquals("FizzBuzz", fizzBuzz.convert(432));
+        Assertions.assertEquals("FizzBuzz", fizzBuzz.convert(456));
+        Assertions.assertEquals("FizzBuzz", fizzBuzz.convert(480));
+        Assertions.assertEquals("FizzBuzz", fizzBuzz.convert(504));
+        
+    }
+
 }
